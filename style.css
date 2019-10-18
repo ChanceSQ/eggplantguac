@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center center;
+    background: rgb(216,110,237);
+    background: -moz-linear-gradient(0deg, rgba(216,110,237,1) 0%, rgba(176,255,178,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(216,110,237,1) 0%, rgba(176,255,178,1) 100%);
+    background: linear-gradient(0deg, rgba(216,110,237,1) 0%, rgba(176,255,178,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d86eed",endColorstr="#b0ffb2",GradientType=1);
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Mansalva', cursive;
+    font-size: 5rem;
+    color: #ffffff;
+    padding-bottom: 25px;
+    text-shadow: 1px 2px #0d0d0d;
+}
+
+h3 {
+    font-family: 'Hepta Slab', serif;
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 1px 2px #0d0d0d;
+}
